@@ -19,7 +19,9 @@ function Todo(props) {
 
     return (
         <div className="todo">
-            <li className={`todo-item ${props.todo.completed ? "completed" : "" }`}>{props.text}</li>
+            <li className={`todo-item ${props.todo.completed ? "completed" : "" }`}>
+                {props.text}
+            </li>
 
             <button onClick={completeHandler} className="complete-btn">
                 <i className="fas fa-check"/>

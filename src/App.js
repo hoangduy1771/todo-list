@@ -13,10 +13,11 @@ function App() {
 
 	return (
 		<div className="App">
+			<h1>Todo List</h1>
 			<img src={logo} className="App-logo" alt="logo" />
 
-			<h1>Todo List</h1>
-			<h1>What do you need to get done today?</h1>
+			
+			<h1>Any plans for today?</h1>
 
 			<Form todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText}/>
 			<TodoList todos={todos} setTodos={setTodos}/>

@@ -1,4 +1,90 @@
+body {
+    background: linear-gradient(160deg, #191654, #43c6ac); 
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+    min-height: 100vh;
+    font-size: calc(5px + 2vmin);
+  }
+  
+
 .completed {
     text-decoration: line-through;
     opacity: 0.5;
   }
+
+
+  form input,
+  form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+  }
+
+  form button {
+    border-left: 2px solid;
+    color: #43c6ac;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  form button:hover {
+    background: #43c6ac;
+    color: white;
+  }
+
+  .todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .todo-list {
+    min-width: 30%;
+    list-style: none;
+  }
+
+  .todo {
+    margin: 0.5rem;
+    background: white;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .todo li {
+    flex: 1;
+  }
+
+.trash-btn,
+.complete-btn {
+  background: rgb(231, 34, 27);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.complete-btn {
+  background: rgb(11, 212, 162);
+}
+
+.complete-btn:hover {
+  background: white;
+  color: rgb(11, 212, 162);
+}
+
+.trash-btn:hover {
+  background: white;
+  color: red;
+}
+
+
+.todo-item {
+  padding: 0rem 0.5rem;
+}
