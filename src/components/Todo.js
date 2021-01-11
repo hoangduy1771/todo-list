@@ -28,7 +28,7 @@ function Todo(props) {
             </button>
 
             <button onClick={deleteHandlder} className="trash-btn">
-                <i className="fas fa-trash"/>
+                <i className="far fa-trash-alt"/>
             </button>
         </div>
     )

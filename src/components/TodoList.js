@@ -6,16 +6,16 @@ function TodoList(props) {
     return (
         <div className="todo-container">
             <ul className="todo-list">
-                {props.todos.map(todo => (
-                    <Todo 
+                {props.filteredTodos.map(todo => (
+                    <Todo
                         todo={todo}
-                        todos={props.todos} 
-                        setTodos={props.setTodos} 
-                        text={todo.text} 
+                        todos={props.todos}
+                        setTodos={props.setTodos}
+                        text={todo.text}
                         key={todo.id}
                     />
                 ))}
-            </ul>            
+            </ul>
         </div>
     )
 }

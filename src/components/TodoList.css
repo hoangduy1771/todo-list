@@ -13,7 +13,7 @@ body {
     opacity: 0.5;
   }
 
-
+  
   form input,
   form button {
     padding: 0.5rem;
@@ -87,4 +87,16 @@ body {
 
 .todo-item {
   padding: 0rem 0.5rem;
+}
+
+
+.select {
+  margin: 1rem;
+}
+select {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 12rem;
+  font-size: 25px;
 }
